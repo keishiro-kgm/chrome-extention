@@ -1,0 +1,13 @@
+{
+    "name" : "Extention",
+    "version" : "1.0.0.0",
+    "manifest_version" : 3,
+    "description" : "translate Eng to Ja",
+    "content_script" : [{
+        "matches" : ["<all_urls>"],
+        "js" : [
+            "content.js"
+        ],
+        "run_at" : "document_end"
+    }]
+}
