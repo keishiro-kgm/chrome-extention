@@ -3,7 +3,7 @@
     "version" : "1.0.0.0",
     "manifest_version" : 3,
     "description" : "translate Eng to Ja",
-    "content_script" : [{
+    "content_scripts" : [{
         "matches" : ["<all_urls>"],
         "js" : [
             "FrontEnd/src/content.js"
