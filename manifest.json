@@ -6,7 +6,7 @@
     "content_script" : [{
         "matches" : ["<all_urls>"],
         "js" : [
-            "content.js"
+            "FrontEnd/src/content.js"
         ],
         "run_at" : "document_end"
     }]
